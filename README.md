@@ -111,6 +111,7 @@ Apply Configuration:
 Apply the configuration using the appropriate .tfvars file:
 ```
 terraform apply -var-file="dev.tfvars"
+#terraform destroy -var="aws_profile=dev"
 ```
 
 # Output
